@@ -1,0 +1,32 @@
+{% extends 'layout.html' %}
+{% block content %}
+
+    <div class="min-vh-100 d-flex">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="{{ url_for('static', filename='images/login.png') }}" class="image">
+                </div>
+                <div class="form col-md-7 mt-2">
+                    <form action="/tools/check_strength" method="POST">
+                        <h2 class="heading">Password Strength Checker</h2>
+
+                           <div class="input-div pass">
+                            <label for="pwd">Enter your password</label>
+                              <div class="div">
+                                   <input type="password" class="input mt-2" name="pwd" id="pwd" required>
+                              </div>
+                           </div>
+                            <button type="submit" class="check float-left mt-4" id="calc_btn" onclick="loading();"> Check </button>
+                            
+                            <h3 class="results">{{ sum }}</h3>
+
+                            <div id="loading"></div>
+                        </form>
+                        <div class="row d-flex justify-content-center align-items-center">
+                            <h4>Choose a hard-to-guess,but a easy-to-remember 🔒 </h4>
+            
+                        </div>
+        
+{% endblock content %}

@@ -5,20 +5,20 @@
 The Password Manager Application project aims to provide a secure and user-friendly solution for managing passwords, featuring strong encryption, reliable authentication, and an intuitive interface for easy access and organization. It includes tools such as a password strength checker, a password generation tool, cross-platform accessibility, and backup options, while educating users on cybersecurity best practices to promote safer online habits.
 
 ### Features:
-Multiple users support
-Adding and editing entries
-Easy app navigation
-Adaptive layout for every device
-Password generator
-Export tresor data in CSV or JSON format
-Copying usernames, passwords and websites to the clipboard
-Search by entry names
-Changing a user's name, email and master password
-Deleting a user's account with all its entries
+1. Multiple users support
+2. Adding and editing entries
+3. Easy app navigation
+4. Adaptive layout for every device
+5. Password generator
+6. Export tresor data in CSV or JSON format
+7. Copying usernames, passwords and websites to the clipboard
+8. Search by entry names
+9. Changing a user's name, email and master password
+10. Deleting a user's account with all its entries
 
-Technologies used
-Front-end language: Html,CSS,Bootstrap,JavaScript.
-Backened language: Python, Flask.
+### Technologies used
+**1. Front-end language:** Html, CSS, Bootstrap, JavaScript.
+**2. Backened language:** Python, Flask.
 
 ### Screenshots:
 

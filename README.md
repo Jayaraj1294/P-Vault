@@ -17,8 +17,8 @@ The Password Manager Application project aims to provide a secure and user-frien
 10. Deleting a user's account with all its entries
 
 ### Technologies used
-**1. Front-end language:** Html, CSS, Bootstrap, JavaScript.
-**2. Backened language:** Python, Flask.
+1. Front-end language: Html, CSS, Bootstrap, JavaScript.
+2. Backened language: Python, Flask.
 
 ### Screenshots:
 

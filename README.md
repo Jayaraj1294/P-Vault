@@ -1,47 +1,49 @@
-# ![shield-lock-fill](https://user-images.githubusercontent.com/73992548/166831227-6f460105-9e5f-455e-b2b7-05854b45e597.svg) PassTresor - Password Manager
-PassTresor is a web-based password manager that helps to manage the passwords in a secure way. All passwords are symmetrically encrypted and stored in a database, which is also secured with a hash-encrypted master password.
+# P-Vault — Secure Password Manager
 
-#### What is under the hood?
-- Frontend: **Bootstrap5**
-- Backend: **Flask**
+P-Vault is a web-based password manager designed to store and manage passwords securely. All passwords are symmetrically encrypted and stored in a database, which is further protected with a hash-encrypted master password.
 
-This app was created as the final project of my Flask framework self-learning program and was inspired by [Bitwarden](https://bitwarden.com) password manager.
+---
 
 ## Features
-- Multiple users support
-- Adding and editing entries
-- Easy app navigation
-- Adaptive layout for every device
-- Password generator
-- Export tresor data in CSV or JSON format
-- Copying usernames, passwords and websites to the clipboard
-- Search by entry names
-- Changing a user's name, email and master password
-- Deleting a user's account with all its entries
 
-## Screenshots
-<img width="1440" alt="passtresor-signin" src="https://user-images.githubusercontent.com/73992548/166984116-f96cc02e-fcb7-434d-a873-67ea51af7d29.png">
-<img width="1440" alt="passtresor-options" src="https://user-images.githubusercontent.com/73992548/166984100-5c957696-df46-41b3-9060-d9b217d784c5.png">
-<img width="1440" alt="passtresor-add-entry" src="https://user-images.githubusercontent.com/73992548/166984071-5ed68a25-4a4b-468f-ba3c-0344a687b98d.png">
-<img width="1440" alt="passtresor-generator" src="https://user-images.githubusercontent.com/73992548/166984262-c2f8baf2-1899-48d5-a6e5-e430b5c583e1.png">
+- **Multiple User Support:**
+  - Users can register, log in, and securely manage their own passwords.
+  
+- **Password Management:**
+  - Add, edit, and delete password entries for websites and services.
+  
+- **Easy Navigation:**
+  - Simple, intuitive UI to easily navigate through password vaults.
 
-## Demo
-https://passtresor.onrender.com
+- **Adaptive Layout:**
+  - Responsive design that adapts to any device, ensuring a seamless experience.
 
-## Installation / Requirements
-- Install Python 3.8.2 or above
+- **Password Generator:**
+  - Built-in password generator for creating secure and random passwords.
 
-    :snake: [Python (latest version)](https://www.python.org/downloads/)
+- **Password Strength Checker:**
+  - Built-in password Strength Checker for analysing the strength of the passwords.
 
-- Install all required packages using **pip** command
+- **Export Data:**
+  - Export password vault entries in CSV or JSON formats for backup or migration.
 
-    ```
-    pip install -r requirements.txt
-    ```
+- **Clipboard Copying:**
+  - Copy usernames, passwords, and website URLs to the clipboard with one click.
 
-## License
-PassTresor - Password Manager
+- **Search:**
+  - Search for entries by name for quick access to stored passwords.
 
-Copyright © 2022 PassTresor Inc.
+- **User Profile Management:**
+  - Change a user's name, email, and master password.
 
-PassTresor is a non-commercial open-source app, available under the [GNU GPLv3](LICENSE.md) license. 
+- **Account Deletion:**
+  - Delete a user’s account along with all its entries permanently.
+
+---
+
+## Tech Stack
+
+- **Frontend:** Bootstrap5 for responsive design and user-friendly interface.
+- **Backend:** Flask for the server-side application logic and handling HTTP requests.
+- **Database:** MongoDB (for securely storing user data and passwords).
+- **Encryption:** AES encryption for password security, with master password hash for authentication.

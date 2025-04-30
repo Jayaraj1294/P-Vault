@@ -1,0 +1,246 @@
+.container-fluid{
+  background:#38d39f;
+  height: 80px;
+}
+.app-brand-nouser {
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+  vertical-align: middle;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.app-brand-user {
+  font-size: 50px;
+  font-weight: 900;
+  vertical-align: middle;
+  width: 20%;
+  height:20%;
+}
+.logo{
+  position: relative;
+  height:70px;
+  width:180px;
+  cursor:pointer;
+  margin-bottom: 20px;
+}
+.logo2{
+  position: relative;
+  height:120px;
+  width:220px;
+  cursor:pointer;
+}
+.alert {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: auto;
+  opacity: 1;
+  transition: all 0.5s;
+}
+
+#alert-hide {
+  opacity: 0;
+}
+
+.alert-icon {
+  font-size: 24px;
+}
+
+.signin-text,
+.signup-text,
+.index-text,
+.add-edit-text,
+.profile-text,
+.generator-text,
+.export-text {
+  text-align: center;
+  margin: auto;
+  max-width: 600px;
+  font-size:1.8rem;
+  color:#38d39f;
+  margin-top: 1.8rem;
+}
+
+.nav-link {
+  font-size: large;
+  font-weight: 600;
+  color: white;
+}
+
+.form-signin,
+.form-signup,
+.form-add,
+.form-profile,
+.form-generator,
+.form-export {
+  margin: auto;
+  max-width: 600px;
+  padding: 20px 20px;
+  border-radius: 10px;
+  border: 2px solid #38d39f;
+}
+
+.form-search {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.content {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.dropdown-menu {
+  min-width: 160px;
+  background-color: #38d39f;
+}
+.dropdown-item{
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+.dropdown-divider{
+  border: 2px solid white;
+}
+.list-group {
+  margin: auto;
+  max-width: 600px;
+  border: 2px solid #38d39f;
+  border-radius: 10px;
+  color: white;
+}
+.list-group-item{
+  height: 100%;
+}
+.list-group-content{
+  color: gray;
+}
+.entry-title{
+  color: #38d39f;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.bi-gear{
+  color: #38d39f;
+}
+.bi-eye,
+.bi-eye-slash,
+.bi-arrow-repeat {
+  font-size: 20px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.copy-username-icon,
+.copy-password-icon,
+.copy-url-icon,
+.launch-url-icon {
+  font-size: 20px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.dropdown-options-icon {
+  font-size: 24px;
+}
+
+.dropdown-options {
+  opacity: 0;
+  transition: all 0.2s;
+}
+.options{
+  border: 2px solid #38d39f;
+  border-radius: 10px;
+
+}
+.list-group-item:hover .dropdown-options {
+  opacity: 1;
+}
+.delete{
+  background-color: #38d39f;
+  border-radius: 10px;
+}
+.error-page {
+  text-align: center;
+  vertical-align: middle;
+  margin: auto;
+  max-width: 600px;
+  padding: 20px 20px;
+}
+
+.generated-password {
+  text-align: center;
+  color: black;
+  font-weight: 600;
+  height: 88px;
+  resize: none;
+}
+
+.bottom-text {
+  text-align: center;
+}
+
+.top-icon {
+  font-size: 44px;
+}
+
+#topBtn {
+  display: none;
+  position: fixed;
+  bottom: 5px;
+  right: 15px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #38d39f;
+  cursor: pointer;
+}
+
+#topBtn:hover {
+  background: transparent;
+  color: #212529;
+}
+/* Add entry page */
+.cancel{
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 1.6px solid gray;
+}
+.cancel:hover{
+  background-color: gray;
+  color: white;
+}
+
+/* Account page */
+.profile-name{
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+.profile-email{
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+.name{
+  border-radius: 10px;
+  background-color: #38d39f;
+  color: white;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.name:hover{
+  color: white;
+}
+.sign-out{
+  background-color: white;
+  border-radius: 10px;
+}
+.sign-out:hover{
+  background-color: gray;
+  color: white;
+}

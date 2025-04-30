@@ -47,3 +47,15 @@ P-Vault is a web-based password manager designed to store and manage passwords s
 - **Backend:** Flask for the server-side application logic and handling HTTP requests.
 - **Database:** MongoDB (for securely storing user data and passwords).
 - **Encryption:** AES encryption for password security, with master password hash for authentication.
+
+---
+
+![image](https://github.com/user-attachments/assets/c590cc34-ebae-4d8a-8a0b-886406361ae0)
+![image](https://github.com/user-attachments/assets/bab8e662-10a1-438d-b1a3-840f3c61d873)
+![image](https://github.com/user-attachments/assets/c2fd904a-6151-45c9-b9e9-bdf60bfeead3)
+![image](https://github.com/user-attachments/assets/f49fb238-4936-490f-a0f8-14addb5a0117)
+![image](https://github.com/user-attachments/assets/0db88458-85c4-448f-8924-56808be90b48)
+![image](https://github.com/user-attachments/assets/feab154a-81d1-4de2-8fa9-bcd31f33a2b4)
+![image](https://github.com/user-attachments/assets/0c7666da-169c-4f2e-be63-d10b872a6309)
+
+
